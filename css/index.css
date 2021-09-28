@@ -1,0 +1,574 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0px;
+}
+header .menu{
+    justify-content: flex-end;
+}
+
+.advertisement{
+    background: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-width: 100%;
+}
+.text-area{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 60%;
+    color: white;
+}
+.text-area h5{
+    line-height: 30px;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    padding: 30px 10px;
+}
+
+.text-area h1{
+    line-height: 30px;
+    font-size: 4.5rem;
+    font-weight: 5rem;
+    padding: 15px 0px;
+}
+
+.text-area h1,
+.text-area h5{
+    text-align: start;
+    width: 50%;
+}
+.text-area h1::before{
+    content: '';
+    position: absolute;
+    bottom: 13rem;
+    left: 38%;
+    transform: translateX(-70%);
+    width: 33%;
+    height: 12px;
+    background-color: #ffffff;
+    margin: 10px 0px;
+}
+
+.text-area .main-text{
+    justify-content: space-between;
+    padding-top: 75px;
+    width: 50%;
+    display: flex;
+}
+.paragraph :nth-child(1){
+    padding: 0px;
+}
+.paragraph{
+    font-weight: lighter;
+    padding: 0px 17px;
+}
+.services{
+    background: #f2f2f2;
+}
+.service-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background: #f2f2f2;
+}
+.service-section .text-section .main-text{
+    color: rgb(192, 189, 189);
+    margin-top: 9rem;
+    font-weight: lighter;
+}
+.service-section .text-section h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+.service-section .text-section .sub-text{
+    font-weight: lighter;
+    padding-bottom: 30px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+.service-section .button-section button{
+    background: red;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 3rem;
+    color: white;
+    margin-bottom: 5rem;
+
+}
+.description{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 55px;
+}
+.description .first-part {
+    padding-right: 30px;
+}
+
+.description .first-part .word-section-1{
+    padding: 50px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+.second-part{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.second-part .word-section-2{
+    padding-bottom: 40px;
+    font-size: 1.2rem;
+}
+.number{
+    color: rgb(245, 26, 26);
+    padding: 1.5rem 0px;
+}
+
+.quality-section{
+    height: 83vh;
+    width: 100%;
+    background: url(../images/billionphotos1.png);
+    background-color: rgb(217, 219, 219);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+    overflow: hidden;
+}
+.quality-section .text-section{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    position: relative;
+    left: 50rem;
+    top: 10rem;
+    justify-content: center;
+}
+.quality-section .text-section h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: rgb(15, 82, 226);
+    padding-bottom: 35px;
+}
+
+.quality-section .text-section h1::after{
+    content: '';
+    position: absolute;
+    bottom: 14.5rem;
+    left: 55%;
+    transform: translateX(-55%);
+    width: 100%;
+    height: 12px;
+    background-color: #f71313;
+    margin: 5px 0px;
+}
+.quality-section .text-section p{
+    font-size: 1.3rem;
+    padding-top: 3rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+.quality-section .text-section .button-section{
+    padding-top: 1.2rem;
+}
+
+.quality-section .text-section .button-section button{
+    background: red;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 3rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+.work-section{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding: 30px 0px;
+}
+.work-section .heading{
+    padding: 30px 0px;
+    width: 100%;
+}
+.work-section .heading h1{
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+.work-section .service-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.work-section .service-details .electrical-section{
+    padding: 0px 30px;
+}
+.work-section .service-details .electrical-section h3,
+.work-section .service-details .painting-section h3,
+.work-section .service-details .repair-section h3{
+    padding: 30px 0px;
+}
+
+.work-section .service-details .electrical-section p,
+.work-section .service-details .painting-section p,
+.work-section .service-details .repair-section p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.3rem;
+    font-style: italic;
+}
+.about-us{
+    width: 100%;
+    background: rgb(29, 75, 173);
+}
+.about-us .about-us-section{
+    height: 70vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+}
+.about-us .about-us-section .about-us-word{
+    color: white;
+    width: 40%;
+    text-align: start;
+}
+.about-us .about-us-section .about-us-word p{
+    line-height: 1.4rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.about-us .about-us-section .about-us-word h1{
+    padding: 1.8rem 0px;
+    font-size: 5rem;
+    line-height: 5.5rem;
+}
+.about-us-images {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 25rem;
+    padding-left: 5rem;
+
+}
+.about-us-images .first-image-section{
+    padding-bottom: 25px;
+}
+.about-us-images .first-image-section,
+.about-us-images .second-image-section{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    column-gap: 25px;
+    
+}
+
+.about-us-images .first-image-section .image-1{
+    background-image: url(../images/rg.jpg);
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.about-us-images .first-image-section .image-2{
+    background-image: url(../images/frg.jpg);
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.about-us-images .second-image-section .image-3{
+    background-image: url(../images/billionphotos3.jpg);
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.about-us-images .second-image-section .image-4{
+    background-image: url(../images/billionphotos2.jpg);
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.footer h2{
+    line-height: 2.4rem;
+    font-size: 2rem;
+    padding: 30px 0px;
+    padding-top: 5rem;
+}
+.footer p{
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    padding-bottom: 30px;
+    font-weight: lighter;
+}
+.footer .button-footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+.footer-button-1{
+    background: red;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+.footer-button-2{
+    background: white;
+    padding: 18px 35px;
+    border: solid thin black;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: black;
+    margin-bottom: 5rem;
+}
+@media (max-width: 768px){
+    .advertisement{
+        background-size: contain;
+        height: 79vh;
+    }
+    .text-area h5{
+        line-height: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+    .text-area h1::before {
+        width: 48%;
+        bottom: 14rem;
+        left: 49%;
+    }
+    .service-section{
+        width: 100%;
+    }
+    .description{
+        width: 100%;
+        flex-direction: column;
+    }
+    .description .first-part .img-section-1,
+    .description .second-part .img-section-2{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .description .first-part .img-section-1 img{
+        width: 100%;
+    }
+    .description .second-part .img-section-2 img{
+        width: 100%;
+    }
+    .second-part .word-section-2{
+        margin: 0px 53px;
+    }
+    .quality-section{
+        background-position: 10% 50%;
+    }
+    .quality-section .text-section{
+        left: 27rem;
+        top: 4rem;
+    }
+    .quality-section .text-section h1{
+        font-size: 2.5rem;
+        padding-bottom: 26px;
+    }
+    .quality-section .text-section h1::after{
+        bottom: 19.5rem;
+        left: 55%;
+
+    }
+    .quality-section .text-section p{
+        font-size: 1.2rem;
+        padding-top: 2.9rem;
+        font-weight: light;
+        line-height: 1.5rem;
+    }
+    .work-section .service-details .electrical-section{
+        padding: 0px 82px;
+    }
+    .work-section{
+        width: 80%;
+    }
+    .about-us .about-us-section{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .about-us .about-us-section .about-us-word{
+        width: 100%;
+    }
+    .about-us .about-us-section .about-us-word h1{
+        width: 100%;
+    }
+    .about-us-images{
+        padding-left: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    .about-us{
+        height: 110vh;
+    }
+    .footer{
+        width: 85%;
+    }
+    .footer p{
+        padding-bottom: 55px;
+    }
+}
+@media (max-width: 425px) {
+    .advertisement{
+        background-size: cover;
+        background-position: -29rem;
+        height: 100vh;
+        
+    }
+    .text-area{
+        justify-content: flex-end;
+        align-items: unset;
+        width: 90%;
+        margin: auto;
+    }
+    .text-area .main-text{
+        display: none;
+    }
+    .text-area h1, .text-area h5{
+        width: 100%;
+    }
+    .text-area h1::before{
+        width: 90%;
+        bottom: -3rem;
+        left: 67%;
+    }
+    .text-area h1{
+        padding-bottom: 110px;
+    }
+    .text-area h5{
+        font-size: 2.2rem;
+        padding: 25px 10px;
+    }
+    .service-section .text-section h2{
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    .service-section{
+        width: 90%;
+    }
+    .description .first-part{
+        padding-right: 0px;
+    }
+    .quality-section .text-section{
+        left: 0.5rem;
+        top: 50.4rem;
+        width: 80%;
+        margin: auto;
+    }
+    .quality-section .text-section h1::after{
+        bottom: 17.5rem;
+    }
+    .quality-section {
+        height: 170vh;
+        background-position: 10% 0%;
+    }
+    .work-section .service-details .electrical-section{
+        padding: 20px 0px;
+    }
+    .work-section .service-details{
+        flex-direction: column;
+    }
+    .about-us{
+        height: 229vh;
+    }
+    .about-us .about-us-section{
+        padding: 40px;
+    }
+    .about-us .about-us-section .about-us-word p{
+        margin-top: 60px;
+    }
+    .about-us-images{
+        height: 100%;
+    }
+    .about-us-images .first-image-section, 
+    .about-us-images .second-image-section{
+        height: 35rem;
+        flex-direction: column;
+    }
+    .about-us-images .first-image-section .image-1{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .about-us-images .first-image-section .image-2{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .about-us-images .second-image-section .image-3{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-us-images .second-image-section .image-4{
+        width: 100%;
+    }
+    .footer p {
+        width: 82%;
+        margin: auto;
+    }
+    .footer .button-footer{
+        flex-direction: column;
+    }
+    .footer-button-1{
+        margin-bottom: 2rem;
+    }
+}
